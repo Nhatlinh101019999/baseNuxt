@@ -9,7 +9,7 @@ export const getters = {
 
 export const mutations = {
     SET_STATE(state, { prop, data }) {
-        state[prop] = data;
+        state[prop] = data; // state['provinces'] = data => state.provinces = data
     },
 };
 
